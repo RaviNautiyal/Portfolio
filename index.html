@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+  </head>
+  
+  
+  <body>
+  <!-- ------------------HeaderSection-------------- -->
+    <header>
+      <nav>
+        <div class="left" style="color: #ff004f;">
+            Ravi Nautiyal's Portfolio
+          </div>
+            
+        <div class="right">
+            <li><a href="#firstsection">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section of the Portfolio -->
+    <main>
+        <section class="firstsection" id="firstsection">
+            <img src="https://images.unsplash.com/photo-1514168757508-07ffe9ae125b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ImageNotFound">
+            <div class="blackbox"></div>
+            <!-- BlackBox to give the dark shade -->
+            <div class="secondsection">
+              <div class="textbox">
+                My Name is <span class="aqua">Ravi Nautiyal.</span>
+                <p> I am a <br>  <span id="element"></span></p>
+              </div>
+              <div class="textbox2">
+                <div class="container">
+                  <div class="quote">
+                    <span id="element2"></span>
+                    
+                  </div> 
+                </div>
+
+                    
+            
+        </div>
+    </div> 
+</section>
+</main> 
+
+
+<!-- --------------AboutSection-------------/ -->
+
+<div class="About" id="about">
+    <div class="aboutphoto">
+<img src="Image 2024-04-29 at 17.01.48_43b30c63.jpg"
+alt="Image Not found" >
+    </div>
+    <div class="description"><h1 style="color: #ff004f;">About Me!</h1> <br> 
+        As a learning web developer and also someone who is diving into the world of data structures and algorithms (DSA), my journey is a fusion of creativity and logic, of design and precision. Every line of code I write is a brushstroke on the canvas of my career, and every algorithm I learn is a building block in the architecture of my knowledge.
+        In the realm of web development, I'm constantly exploring new technologies and frameworks, pushing the boundaries of what's possible on the web. From HTML and CSS to JavaScript and beyond, I'm always honing my skills and expanding my toolkit.
+        <div class="tabtitles">
+        <div class="tab-link activelink" onclick="opentab('Skills')">
+            Skills
+        </div>
+        <div class="tab-link" onclick="opentab('Education')">Education</div>
+        <div class="tab-link" onclick="opentab('PastExperience')">Past experience</div>
+        
+    </div>
+    <div class="tabcontents activetab " id="Skills">
+        <ul>
+            <li>
+               <span style="color: rgb(141, 43, 43);"">Web Development</span>
+              </li>
+               
+        </ul>  
+        
+    </div>
+    <div class="tabcontents" id="Education">
+        <ul>
+            <li>
+               <span style="color: rgb(141, 43, 43);">2024 - Current</span><br>
+               Pursuing CSE at NIT Jalandhar
+            </li>
+            <li>
+                <span style="color: rgb(141, 43, 43);"> Before 2023</span><br>
+                Completed Schooling from DC Model Internation School, Ferozepur, Punjab
+             </li>
+        </ul>  
+    </div>
+    <div class="tabcontents" id="PastExperience">
+        <ul>
+            <li>
+               <span style="color: rgb(141, 43, 43);">None</span><br>
+               
+               
+            </li>
+        </ul>  
+        
+    </div> 
+
+                
+            
+     </div>
+    </div>
+    <!-- -----------Contact Section----------- -->
+    <footer>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="left"> 
+              <h1 class="subtitle" style="color: #ff004f ;">Contact Me</h1>
+              <p><i class="fa-regular fa-envelope"></i>ravinautiyal08@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>+91 7087321547</p>
+              <div class="socialicons">
+                <a href="https://www.linkedin.com/in/ravi-nautiyal-347886287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/RaviNautiyal">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/ravinautiyal10/">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <button class="submitbutton" type="submit">Submit</button>
+                <span id="msg"></span>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © RaviNautiyal. All rights reserved. </p>
+      </div>
+    </footer>
+      
+           
+
+    
+    <!-- Typescript  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- For Fonts -->
+    <script src="https://kit.fontawesome.com/4d8166839c.js" crossorigin="anonymous"></script>
+
+    
+<!-- Use of Typescript -->
+<script>
+const quotes = [
+    {
+      text: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      author: "Nelson Mandela"
+    },
+    {
+      text: "The way to get started is to quit talking and begin doing.",
+      author: "Walt Disney"
+    },
+    {
+      text: "Life is what happens when you're busy making other plans.",
+      author: "John Lennon"
+    },
+    {
+      text: "In the end, it's not the years in your life that count. It's the life in your years.",
+      author: "Abraham Lincoln"
+    },
+    {
+      text: "The only impossible journey is the one you never begin.",
+      author: "Tony Robbins"
+    },
+    {
+      text:"Programming isn't about what you know; it's about what you can figure out.",
+
+    }
+  
+    ];
+    // document.getElementById("element").innerText = quotes.text;
+    
+
+    
+      var typed = new Typed('#element', {
+        strings: ['Passionate Web Developer,', 'Enthusiastic Problem Solver.'],
+        typeSpeed: 50,
+      });
+      // Select a random quote from the quotes array
+      
+      // Display the quote text and author (if available)
+      // const element = document.getElementById("element2");
+      // element.innerHTML = `<p>${randomQuote.text}</p>`;
+      // if (randomQuote.author) { 
+        //   element.innerHTML += `<p>- ${randomQuote.author}</p>`;
+        // }
+        setTimeout(() => {
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  var typed = new Typed('#element2', {
+        strings: [randomQuote.text],
+        typeSpeed: 50,
+      });
+    
+}, 7000);
+
+      </script>
+        
+    <script>
+        tablink=document.body.getElementsByClassName('tab-link')
+        tabcontents=document.body.getElementsByClassName('tabcontents')
+        function opentab(TabId) {
+    const activeLink = document.querySelector('.activelink');
+    // if we select by classname then we get the html collection then we have to iterate through each item in the html collection and then remove the active link or active tab personally using for loop
+        activeLink.classList.remove('activelink');
+    
+
+    const activeTab = document.querySelector('.activetab');
+    
+        activeTab.classList.remove('activetab');
+    
+
+    event.currentTarget.classList.add('activelink');
+    const tabElement = document.getElementById(TabId);
+  
+        tabElement.classList.add('activetab');
+    
+}
+</script>
+    
+  
+
+   
+   
+<!-- App Script  -->
+<!-- Sending the data to the URL  -->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzwWHfYGd2NblgJ9lXBF-oJEA5ojtZ7lyGuNbtwc_ZTTnlp2fLZU4M6QDafllYW0wAn4w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  // This is method to select the form. We add the same name in the name section of the form
+  
+  const msg= document.getElementById('msg')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {msg.innerHTML="Message Sent Successfully"
+   setTimeout(()=>{
+    msg.innerHTML=""
+   },2000)
+   form.reset()
+  }
+  )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
